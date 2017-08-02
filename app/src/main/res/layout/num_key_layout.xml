@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    android:orientation="vertical">
+    <View
+        android:background="@drawable/line_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="@dimen/pan_text_size"
+            android:id="@+id/button_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/num_bg"
+            android:text="1" />
+
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:textSize="@dimen/pan_text_size"
+            android:id="@+id/button_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/num_bg"
+            android:text="2" />
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/num_bg"
+            android:text="3"
+            android:textSize="@dimen/pan_text_size" />
+
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_del"
+            android:text="退格"
+            android:textSize="@dimen/pan_text_size"
+            android:background="@drawable/fun_bg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:background="@drawable/line_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="4"
+            android:textSize="@dimen/pan_text_size"
+            android:id="@+id/button_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/num_bg" />
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:text="5"
+            android:id="@+id/button_5"
+            android:textSize="@dimen/pan_text_size"
+            android:background="@drawable/num_bg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:text="6"
+            android:textSize="@dimen/pan_text_size"
+            android:id="@+id/button_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/num_bg" />
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:textSize="@dimen/pan_text_size"
+            android:background="@drawable/fun_bg"
+            android:text="清除"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:background="@drawable/line_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:text="7"
+                    android:id="@+id/button_7"
+                    android:textSize="@dimen/pan_text_size"
+                    android:background="@drawable/num_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <View
+                    android:background="@drawable/line_bg"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:text="8"
+                    android:textSize="@dimen/pan_text_size"
+                    android:id="@+id/button_8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/num_bg" />
+
+                <View
+                    android:background="@drawable/line_bg"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:text="9"
+                    android:id="@+id/button_9"
+                    android:textSize="@dimen/pan_text_size"
+                    android:background="@drawable/num_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+            <View
+                android:background="@drawable/line_bg"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:text="00"
+                    android:id="@+id/button_00"
+                    android:textSize="@dimen/pan_text_size"
+                    android:background="@drawable/num_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <View
+                    android:background="@drawable/line_bg"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:text="0"
+                    android:id="@+id/button_0"
+                    android:textSize="@dimen/pan_text_size"
+                    android:background="@drawable/num_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+                <View
+                    android:background="@drawable/line_bg"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:text="."
+                    android:id="@+id/button_dot"
+                    android:textSize="@dimen/pan_text_size"
+                    android:background="@drawable/num_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:background="@drawable/line_bg"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_complete"
+            android:text="收款"
+            android:textSize="@dimen/pan_text_size"
+            android:textColor="#fff"
+            android:background="@drawable/big_button_bg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:background="@drawable/line_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pan_text_size">28sp</dimen>
+
+
+    <dimen name="pan_button_hight">80dp</dimen>
+</resources>
